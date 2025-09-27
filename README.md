@@ -1,6 +1,6 @@
-# Aubin Burger House 
+# Aubin's Burger House 
 
-Un site vitrine responsive pour le restaurant *Aubin Burger House*, realise dans le cadre d’un devoir.  
+Un site vitrine responsive pour le restaurant *Aubin's Burger House*, realise dans le cadre d’un devoir.  
 
 
 ## Objectif du projet  
