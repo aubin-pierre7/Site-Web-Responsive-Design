@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aubins Burger House</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <span class="aubin">Aubins</span> <span class="burger">Burger</span>
+          <span class="house">House</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#testimonials">Avis</a></li>
+          <li><a href="#gallery">Galerie</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger-menu"><span></span><span></span><span></span></div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>
+          <span class="aubin">Aubins</span> <span class="burger">Burger</span>
+          <span class="house">House</span>
+        </h1>
+        <p class="slogan">Le gout qui reste en memoire</p>
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-menu">Voir le menu</a>
+          <a href="#contact" class="btn btn-order">Commander maintenant</a>
+        </div>
+      </div>
+      <div class="hero-bg">
+        <img src="Images/Burger Appetisant.jpg" alt="Burger appetissant" />
+      </div>
+    </section>
+    <section id="menu" class="menu-section">
+      <h2>Notre Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <img src="Images/img1.webp" alt="Classic Burger" />
+          <h3>Classic Burger</h3>
+          <span class="price">3500 FCFA</span>
+        </div>
+        <div class="menu-item">
+          <img src="Images/img2.webp" alt="Cheese Lover" />
+          <h3>Cheese Lover</h3>
+          <span class="price">4000 FCFA</span>
+        </div>
+        <div class="menu-item">
+          <img src="Images/img3.webp" alt="Chicken Crunch" />
+          <h3>Chicken Crunch</h3>
+          <span class="price">3500 FCFA</span>
+        </div>
+        <div class="menu-item">
+          <img src="Images/Burger.jpg" alt="Veggie Burger" />
+          <h3>Veggie Burger</h3>
+          <span class="price">3200 FCFA</span>
+        </div>
+        <div class="menu-item">
+          <img src="Images/Frites.jpg" alt="Frites Maison" />
+          <h3>Frites Maison</h3>
+          <span class="price">1500 FCFA</span>
+        </div>
+        <div class="menu-item">
+          <img src="Images/Onion rings.webp" alt="Onion Rings" />
+          <h3>Onion Rings</h3>
+          <span class="price">1800 FCFA</span>
+        </div>
+        <div class="menu-item">
+          <img src="Images/img3.png" alt="Soda" />
+          <h3>Soda</h3>
+          <span class="price">1000 FCFA</span>
+        </div>
+        <div class="menu-item">
+          <img src="Images/Milshake.jpg" alt="Milkshake Maison" />
+          <h3>Milkshake Maison</h3>
+          <span class="price">2000 FCFA</span>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about-section">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>A propos</h2>
+          <p>
+            Chez <strong>Aubins Burger House</strong>, nous sommes passionnes
+            par la qualite, les ingredients frais et l'amour du burger. Notre
+            equipe met tout son coeur pour vous offrir une experience gourmande
+            et conviviale, dans une ambiance chaleureuse.
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="Images/Employes.jpeg" alt="Equipe du restaurant" />
+        </div>
+      </div>
+    </section>
+    <section id="testimonials" class="testimonials-section">
+      <h2>Ils ont adore !</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <p>
+            “Des burgers incroyables, un accueil chaleureux, je recommande a
+            100% !”
+          </p>
+          <span>MABOM THOMAS</span>
+        </div>
+        <div class="testimonial">
+          <p>“Le meilleur burger de la ville, frites maison delicieuses !”</p>
+          <span>KAMGA JOEL</span>
+        </div>
+        <div class="testimonial">
+          <p>
+            “Ambiance conviviale, equipe au top, je reviendrai avec plaisir.”
+          </p>
+          <span>FOSSOH YVAN</span>
+        </div>
+      </div>
+    </section>
+    <section id="gallery" class="gallery-section">
+      <h2>Galerie</h2>
+      <div class="gallery-grid">
+        <img src="Images/img10.webp" alt="Ambiance restaurant" />
+        <img src="Images/img11.webp" alt="Burger maison" />
+        <img src="Images/img12.webp" alt="Boisson fraiche" />
+        <img src="Images/Menu.jpg" alt="Menu Aubins Burger House" />
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <h2>Contact & Localisation</h2>
+      <div class="contact-content">
+        <form class="contact-form">
+          <input type="text" placeholder="Votre nom" required />
+          <input type="email" placeholder="Votre email" required />
+          <textarea placeholder="Votre message" required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+        <div class="map-socials">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.760005807019!2d9.70853131526013!3d4.051056096242998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610d1e6b6e6e6f%3A0x5b6e6e6e6e6e6e6e!2sDouala%2C%20Cameroun!5e0!3m2!1sfr!2sfr!4v1630000000000!5m2!1sfr!2sfr"
+            width="100%"
+            height="220"
+            style="border: 0; border-radius: 12px"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <div class="socials">
+            <a href="#" class="social fb" title="Facebook"
+              ><img src="Images/Facebook.png" alt="Facebook"
+            /></a>
+            <a href="#" class="social ig" title="Instagram"
+              ><img src="Images/Instagram.png" alt="Instagram"
+            /></a>
+            <a href="#" class="social tiktok" title="TikTok"
+              ><img src="Images/TikTok.png" alt="TikTok"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="contact-infos">
+      <a
+        href="https://wa.me/+237696865577"
+        class="contact-icon whatsapp"
+        title="WhatsApp"
+        target="_blank"
+      >
+        <img src="Images/Whatsapp.png" alt="WhatsApp" />
+        <span></span>
+      </a>
+      <a
+        href="mailto:aubinp58@gmailcom"
+        class="contact-icon email"
+        title="Email"
+      >
+        <img src="Images/Email.png" alt="Email" />
+        <span></span>
+      </a>
+      <a href="tel:+237696986577" class="contact-icon phone" title="Telephone">
+        <img src="Images/Telephone.png" alt="Telephone" />
+        <span></span>
+      </a>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">Aubins Burger House</div>
+        <div class="footer-info">
+          <span>&copy; 2025 Aubins Burger House</span>
+          <span>Ouvert 7j/7 : 11h30 – 23h00</span>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const burgerMenu = document.querySelector(".burger-menu");
+      const navLinks = document.querySelector(".nav-links");
+      burgerMenu.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        burgerMenu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
